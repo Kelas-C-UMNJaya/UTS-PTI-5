@@ -3,7 +3,7 @@
 
 Nama Anggota
 - Christian Ivan Wibowo (00000058450)
-- Agus
+- Stanislaus Vieri Halim (00000057445)
 - Bambang
 - Yusuf
 
