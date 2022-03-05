@@ -1,8 +1,8 @@
 # {isi nama game}
 ## {isi nama kelompok}
 
-### Anggota
-- Asep
+Nama Anggota
+- Christian Ivan Wibowo (00000058450)
 - Agus
 - Bambang
 - Yusuf
