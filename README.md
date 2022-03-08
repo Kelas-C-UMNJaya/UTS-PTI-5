@@ -17,7 +17,7 @@ Aturan
    Belajar : Opsi ini berguna untuk menambahkan status belajar karakter.
           Konsekuensinya ketika statusnya bertambah, status tidur akan berkurang
    Makan   : Opsi ini berguna untuk menambahkan status makan karakter.
-          Konsekuensinya ketika statusnya bertambah, tidak adaa status akan berkurang
+          Konsekuensinya ketika statusnya bertambah, tidak ada status akan berkurang
 
 
-Untuk menyelesaikan gamenya, pemain harus bisa mencapai semester 8
+Untuk menyelesaikan gamenya, pemain harus bisa mencapai semester 8, Selamat Bermain!
