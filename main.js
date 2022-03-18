@@ -1,20 +1,21 @@
 //----------------- Jam ---------------
+document.getElementById("salam").innerHTML = "Selamat Malam"
 function waktu1(){
     for (let i=0; i<24; i++){
         setTimeout(function timer() {
             console.log("Jam" + i);
             document.getElementById("jam").innerHTML = i;
             if (i == 5) {
-                alert("Selamat Pagi");
+                document.getElementById("salam").innerHTML = "Selamat Pagi"
             }
             if (i == 10) {
-                alert("Selamat Siang");
+                document.getElementById("salam").innerHTML = "Selamat Siang"
             }
             if (i == 15) {
-                alert("Selamat Sore");
+                document.getElementById("salam").innerHTML = "Selamat Sore"
             }
             if (i == 20) {
-                alert("Selamat Malam");
+                document.getElementById("salam").innerHTML = "Selamat Malam"
             }
         }, i * 15000);
     }
@@ -36,3 +37,17 @@ waktu2();
 setInterval(waktu1, 360000);
 setInterval(waktu2, 15000);
 
+document.getElementById("semester").innerHTML = "Semester " + "1";
+function sem(){
+    for ( let s=2; s<=8; s++){
+        setTimeout(function timer() {
+
+            console.log(s);
+            document.getElementById("semester").innerHTML = "Semester " + s;
+
+        }, s * 360000); 
+        
+    }
+}
+
+sem();
