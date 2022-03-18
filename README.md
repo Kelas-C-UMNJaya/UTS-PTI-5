@@ -1,4 +1,4 @@
-UMN Life Simulator
+UMN Life
 
 Nama Anggota
 - Christian Ivan Wibowo (00000058450)
@@ -20,4 +20,4 @@ Aturan
           Konsekuensinya ketika statusnya bertambah, tidak ada status akan berkurang
 
 
-Untuk menyelesaikan gamenya, pemain harus bisa mencapai semester 8, Selamat Bermain!
+Untuk menyelesaikan gamenya, pemain harus bisa mencapai semester 8. Game dimulai dari awal.html, Selamat Bermain!
