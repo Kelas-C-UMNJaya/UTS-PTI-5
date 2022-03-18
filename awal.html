@@ -35,7 +35,7 @@
       </div>
       <div class="mt-4">
         <button id="close" class="button-82-pushable"role="button"><span class="button-82-shadow">
-          </span><span class="button-82-edge"></span><span class="button-82-front text">Exit </span>
+          </span><span class="button-82-edge"></span><span class="button-82-front text" onclick="window.open('', '_self', ''); window.close();">Exit </span>
         </button>
       </div>
       <!----------------------------------------------------------------------------------------------------------------->
@@ -154,14 +154,6 @@
         }
       }
 
-      // EXIT ------------------------------------------------------------------------------------------------------------------------------------
-
-      let btnClose = document.getElementById("close");
-      let tab;
-
-      btnClose.addEventListener('click', ()=>{
-        myTab = window.close("awal.html");
-      })
 
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
