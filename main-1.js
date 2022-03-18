@@ -1,3 +1,6 @@
+var value = window.prompt('Who Are You ?');
+document.getElementById("nama").innerHTML = value;
+
 //----------------- Jam ---------------
 document.getElementById("salam").innerHTML = "Selamat Malam"
 function waktu1(){
@@ -37,11 +40,13 @@ setInterval(waktu2, 15000);
 
 document.getElementById("semester").innerHTML = "Semester " + "1";
 function sem(){
-    for ( let s=2; s<=8; s++){
+    for ( let s=2; s<=9; s++){
         setTimeout(function timer() {
             document.getElementById("semester").innerHTML = "Semester " + s;
         }, s * 360000); 
-        
+        if (s > 9) {
+          alert("Selamat Anda Lulus");
+        }
     }
 }
 
@@ -55,7 +60,10 @@ function move1() {
       width += 10;
       elem.style.width = width + '%';
     }
-  
+  document.getElementById("karakter").src ="data/1makan.jpg"
+    setTimeout(() => {
+      document.getElementById("karakter").src ="data/alek.png"
+    }, 5000);
 }
 setInterval(lapar, 10000);
 var width = 50;
@@ -76,7 +84,10 @@ function move2() {
       width += 10;
       elem.style.width = width + '%';
     }
-  
+    document.getElementById("karakter").src ="data/1tidur.jpg"
+    setTimeout(() => {
+      document.getElementById("karakter").src ="data/alek.png"
+    }, 5000);
 }
 
 setInterval(ngantuk, 10000);
@@ -98,7 +109,10 @@ function move3() {
       width += 10;
       elem.style.width = width + '%';
     }
-  
+    document.getElementById("karakter").src ="data/1main.jpg"
+    setTimeout(() => {
+      document.getElementById("karakter").src ="data/alek.png"
+    }, 5000);
 }
 setInterval(bosen, 10000);
 var width = 50;
@@ -106,6 +120,7 @@ function bosen(){
   var elem = document.getElementById("main")
   width -= 3;
   elem.style.width = width + '%';
+
   if (width <= 0) {
     location.href = "gameOver.html"
   }
@@ -119,7 +134,10 @@ function move4() {
       width += 10;
       elem.style.width = width + '%';
     }
-  
+    document.getElementById("karakter").src ="data/1belajar.jpg"
+    setTimeout(() => {
+      document.getElementById("karakter").src ="data/alek.png"
+    }, 5000);
 }
 setInterval(gabut, 10000);
 var width = 50;
@@ -127,6 +145,7 @@ function gabut(){
   var elem = document.getElementById("belajar");
   width -= 3;
   elem.style.width = width + '%';
+
   if (width <= 0) {
     location.href = "gameOver.html"
   }
