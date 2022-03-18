@@ -3,7 +3,6 @@ document.getElementById("salam").innerHTML = "Selamat Malam"
 function waktu1(){
     for (let i=0; i<24; i++){
         setTimeout(function timer() {
-            console.log("Jam" + i);
             document.getElementById("jam").innerHTML = i;
             if (i == 5) {
                 document.getElementById("salam").innerHTML = "Selamat Pagi"
@@ -25,7 +24,6 @@ function waktu1(){
 function waktu2(){
     for (let j=0; j<60; j++){
         setTimeout(function timer() {
-            console.log("detik" + j);
             document.getElementById("menit").innerHTML = j;
         }, j * 250); 
         

@@ -1,6 +1,5 @@
 .box1{
   width:100px;
-  height:60px;
   text-align: center;
   vertical-align: middle;
   background: rgba(48, 11, 255, 0.36);
@@ -9,6 +8,8 @@
   backdrop-filter: blur(2.4px);
   -webkit-backdrop-filter: blur(2.4px);
   display:table-cell;
+  font-size: larger;
+  margin: 5px;
   }
 
 .button-30 {
