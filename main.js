@@ -49,3 +49,80 @@ function sem(){
 }
 
 sem();
+
+var i = 0;
+function move1() {
+if (i == 0) {
+  i = 1;
+  var elem = document.getElementById("makan");
+  var width = 1;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+      i = 0;
+    } else {
+      width++;
+      elem.style.width = width + "%";
+    }
+    makan -= 4
+  }
+}
+}
+
+var i = 0;
+function move2() {
+if (i == 0) {
+  i = 1;
+  var elem = document.getElementById("tidur");
+  var width = 1;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+      i = 0;
+    } else {
+      width++;
+      elem.style.width = width + "2%";
+    }
+  }
+}
+}
+
+var i = 0;
+function move3() {
+if (i == 0) {
+  i = 1;
+  var elem = document.getElementById("main");
+  var width = 1;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+      i = 0;
+    } else {
+      width++;
+      elem.style.width = width + "2%";
+    }
+  }
+}
+}
+
+var i = 0;
+function move4() {
+if (i == 0) {
+  i = 1;
+  var elem = document.getElementById("belajar");
+  var width = 1;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+      i = 0;
+    } else {
+      width++;
+      elem.style.width = width + "2%";
+    }
+  }
+}
+}
