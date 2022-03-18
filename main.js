@@ -54,7 +54,6 @@ function move1() {
     if (width < 100) {
       width += 10;
       elem.style.width = width + '%';
-      elem.innerHTML = width * 1 + '%';
     }
   
 }
@@ -64,7 +63,6 @@ function lapar(){
   var elem = document.getElementById("makan");
   width -= 3;
   elem.style.width = width + '%';
-  elem.innerHTML = width * 1 + '%';
   if (width <= 0) {
     location.href = "gameOver.html"
   }
@@ -77,7 +75,6 @@ function move2() {
     if (width < 100) {
       width += 10;
       elem.style.width = width + '%';
-      elem.innerHTML = width * 1 + '%';
     }
   
 }
@@ -88,7 +85,6 @@ function ngantuk(){
   var elem = document.getElementById("tidur");
   width -= 3;
   elem.style.width = width + '%';
-  elem.innerHTML = width * 1 + '%';
   if (width <= 0) {
     location.href = "gameOver.html"
   }
@@ -101,7 +97,6 @@ function move3() {
     if (width < 100) {
       width += 10;
       elem.style.width = width + '%';
-      elem.innerHTML = width * 1 + '%';
     }
   
 }
@@ -111,7 +106,6 @@ function bosen(){
   var elem = document.getElementById("main")
   width -= 3;
   elem.style.width = width + '%';
-  elem.innerHTML = width * 1 + '%';
   if (width <= 0) {
     location.href = "gameOver.html"
   }
@@ -124,7 +118,6 @@ function move4() {
     if (width < 100) {
       width += 10;
       elem.style.width = width + '%';
-      elem.innerHTML = width * 1 + '%';
     }
   
 }
@@ -134,7 +127,6 @@ function gabut(){
   var elem = document.getElementById("belajar");
   width -= 3;
   elem.style.width = width + '%';
-  elem.innerHTML = width * 1 + '%';
   if (width <= 0) {
     location.href = "gameOver.html"
   }
