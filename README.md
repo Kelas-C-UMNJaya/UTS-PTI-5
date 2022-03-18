@@ -1,4 +1,4 @@
-UMN Life
+UMN Life Simulator
 
 Nama Anggota
 - Christian Ivan Wibowo (00000058450)
